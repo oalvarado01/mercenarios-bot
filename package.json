@@ -2,7 +2,7 @@
   "name": "StasWey",
   "version": "1.0.0",
   "description": "Bot sarcastico Mexicano que caga el palo en texto de acuerdo a lo que se escribe en el chat.",
-  "main": "staswey.js", |
+  "main": "staswey.js", 
     "scripts": {
       "start": "node staswey.js"
       },
