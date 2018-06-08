@@ -1,0 +1,19 @@
+"name": "StasWey",
+  "version": "1.0.0",
+  "description": "Bot sarcastico Mexicano que caga el palo en texto de acuerdo a lo que se escribe en el chat.",
+  "main": "staswey.js", |
+    "scripts": {
+      "start": node "staswey.js"
+      },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "ignore-case": "^0.1.0",
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Omar Alvarado",
+  "license": "ISC"
