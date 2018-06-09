@@ -152,5 +152,5 @@ client.on('message',(message) => {
 //check roles
 
 //Bot login
-//client.login(process.env.BOT_TOKEN);
-client.login("NDU0NzkxNTYyOTAwMDEzMDY2.Dfyl5A.OhUnC4w0kpJSHwdWhDgAKGr_Y64");
+client.login(process.env.BOT_TOKEN);
+
