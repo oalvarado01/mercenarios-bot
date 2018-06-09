@@ -164,12 +164,12 @@ client.on('message',(message) =>{
 // De nada
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "de nada")){
-        message.channel.send("En vez de decirle eso mejor cobrale. Que de seguro ya te mamaste toda tu Adena pinche pobre " + message.author);
+        message.channel.send(message.author + " En vez de decirle eso mejor cobrale. Que de seguro ya te mamaste toda tu Adena pinche pobre." );
     }
 });
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "De nada")){
-        message.channel.send("En vez de decirle eso mejor cobrale. Que de seguro ya te mamaste toda tu Adena pinche pobre. " + message.author);
+        message.channel.send(message.author + " En vez de decirle eso mejor cobrale. Que de seguro ya te mamaste toda tu Adena pinche pobre.");
     }
 });
 //check roles
