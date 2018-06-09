@@ -153,23 +153,23 @@ client.on('message',(message) =>{
 //Gracias
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "Gracias")){
-        message.channel.send("Gracias las que te cargas cuando encantas pinche salado " + message.author);
+        message.channel.send("Si me lo dices a mi, no tienes nada que agradecerme. Con gusto me vuelvo a revolcar contigo otra vez." + message.author);
     }
 });
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "gracias")){
-        message.channel.send("Gracias las que te cargas cuando encantas pinche salado " + message.author);
+        message.channel.send("Si me lo dices a mi, no tienes nada que agradecerme. Con gusto me vuelvo a revolcar contigo otra vez. " + message.author);
     }
 });
 // De nada
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "de nada")){
-        message.channel.send("Con Nada de Adena te quedas diario, pinche pobre. Espero y no olvides la donacion pinche codo " + message.author);
+        message.channel.send("Con nada de Adena te quedas diario, pinche pobre. Espero y no olvides la donacion pinche codo " + message.author);
     }
 });
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "De nada")){
-        message.channel.send("Con Nada de Adena te quedas diario, pinche pobre. Espero y no olvides la donacion pinche codo " + message.author);
+        message.channel.send("Con nada de Adena te quedas diario, pinche pobre. Espero y no olvides la donacion pinche codo " + message.author);
     }
 });
 //check roles
