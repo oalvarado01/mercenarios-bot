@@ -60,6 +60,21 @@ client.on('message',(message) => {
         message.channel.send("No seas mamon wei. Ahora resulta que hay cosas mas importantes que el pinche juego. :angry: " + message.author);
     }
 });
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "Hasta manana")){
+        message.channel.send("No seas mamon wei. Ahora resulta que hay cosas mas importantes que el pinche juego. :angry: " + message.author);
+    }
+});
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "Hasta Manana")){
+        message.channel.send("No seas mamon wei. Ahora resulta que hay cosas mas importantes que el pinche juego. :angry: " + message.author);
+    }
+});
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "hasta manana")){
+        message.channel.send("No seas mamon wei. Ahora resulta que hay cosas mas importantes que el pinche juego. :angry: " + message.author);
+    }
+});
 //Al decir Buenas Noches
 client.on('message',(message) => {
     if(message.content.includes(prefix + "Buenas Noches")){
