@@ -6,6 +6,12 @@ const prefix = "";
 client.on('ready', () => {
     console.log("Sancho ya esta en linea");
 });
+//help
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "help")){
+        message.channel.send("todos los comandos son con mayusculas y minusculas no importa. pueden ser escritas en oracion. aqui los comandos ---> Sancho dame tu bendición, jaj, Hola, Hasta Mañana, Buenas Noches, xD, cores, Asedio, Que hacen, Mazmorras, Gracias, De nada");
+    }
+});
 //Cuando piden la Bendicion
 client.on('message',(message) => {
     if(message.content.includes(prefix + "Sancho dame tu bendición")){
