@@ -109,22 +109,17 @@ client.on('message',(message) => {
     }
 });
 //que hacen?
-client.on('message',(meaage) => {
+client.on('message',(message) => {
     if(message.content.includes(prefix + "que hacen")){
         message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
     }
 });
-client.on('message',(meaage) => {
+client.on('message',(message) => {
     if(message.content.includes(prefix + "Que hacen")){
         message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
     }
 });
-client.on('message',(meaage) => {
-    if(message.content.includes(prefix + "Que Hacen")){
-        message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
-    }
-});
-client.on('message',(meaage) => {
+client.on('message',(message) => {
     if(message.content.includes(prefix + "Que Hacen")){
         message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
     }
