@@ -115,12 +115,12 @@ client.on('message',(message) => {
 //Asedio 
 client.on('message',(message) => {
     if(message.content.includes(prefix + "asedio")){
-        message.channel.send("Deja de preguntar cosas obvias y meor organiza un equipo " + message.author);
+        message.channel.send("En vez de hacer preguntas estupidas mejor organiza un equipo para el pinche asedio " + message.author);
     }
 });
 client.on('message',(message) => {
     if(message.content.includes(prefix + "Asedio")){
-        message.channel.send("Deja de preguntar cosas obvias y meor organiza un equipo " + message.author);
+        message.channel.send("En vez de hacer preguntas estupidas mejor organiza un equipo para el pinche asedio " + message.author);
     }
 });
 //que hacen?
