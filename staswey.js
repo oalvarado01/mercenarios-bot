@@ -91,6 +91,45 @@ client.on('message',(message) => {
         message.channel.send("Mira nomas que pinche sonrrisita traes... De seguro a noche te dieron hasta para llevar. " + message.author);
     }
 });
+//Cores
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "cores")){
+        message.channel.send("No mames wey, obvio que todos quieren. Mejor pregunta quien esta disponible para ayudarte ya que solo no puedes " + message.author);
+    }
+});
+//Asedio 
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "asedio")){
+        message.channel.send("Deja de preguntar cosas obvias y mejor organiza un equipo " + message.author);
+    }
+});
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "Asedio")){
+        message.channel.send("Deja de preguntar cosas obvias y mejor organiza un equipo " + message.author);
+    }
+});
+//que hacen?
+client.on('message',(meaage) => {
+    if(message.content.includes(prefix + "que hacen")){
+        message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
+    }
+});
+client.on('message',(meaage) => {
+    if(message.content.includes(prefix + "Que hacen")){
+        message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
+    }
+});
+client.on('message',(meaage) => {
+    if(message.content.includes(prefix + "Que Hacen")){
+        message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
+    }
+});
+client.on('message',(meaage) => {
+    if(message.content.includes(prefix + "Que Hacen")){
+        message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
+    }
+});
+
 //check roles
 
 //Bot login
