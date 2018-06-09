@@ -115,12 +115,12 @@ client.on('message',(message) => {
 //Asedio 
 client.on('message',(message) => {
     if(message.content.includes(prefix + "asedio")){
-        message.channel.send("Deja de preguntar cosas obvias y mejor organiza un equipo " + message.author);
+        message.channel.send("Deja de preguntar cosas obvias y meor organiza un equipo " + message.author);
     }
 });
 client.on('message',(message) => {
     if(message.content.includes(prefix + "Asedio")){
-        message.channel.send("Deja de preguntar cosas obvias y mejor organiza un equipo " + message.author);
+        message.channel.send("Deja de preguntar cosas obvias y meor organiza un equipo " + message.author);
     }
 });
 //que hacen?
