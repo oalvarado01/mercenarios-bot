@@ -144,6 +144,11 @@ client.on('message',(message) => {
         message.cahnnel.send("@everyone Ya escucharon cabrones, puto el que no entre. " + message.author + 'ya les cague el palo wei :poop:');
     }
 });
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "mazmorras")){
+        message.cahnnel.send("@everyone Ya escucharon cabrones, puto el que no entre. " + message.author + 'ya les cague el palo wei :poop:');
+    }
+});
 //check roles
 
 //Bot login
