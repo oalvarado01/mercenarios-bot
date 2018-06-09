@@ -139,7 +139,11 @@ client.on('message',(message) => {
         message.cahnnel.send("Que te valga 3 hectáreas y ponte a acabar tus diarias para que ayudes con los logros del clan " + message.author);
     }
 });
-
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "Mazmorras")){
+        message.cahnnel.send("@everyone Ya escucharon cabrones, puto el que no entre. " + message.author + 'ya les cague el palo wei :poop:');
+    }
+});
 //check roles
 
 //Bot login
