@@ -29,7 +29,7 @@ client.on('message',(message) => {
     }
 });
 client.on('message',(message) => {
-    if(message.content.includes(prefix + "JAJ")){
+    if(message.content.toLowerCase.includes(prefix + "JAJ")){
         message.channel.send("Que? A caso tengo payasos en la puta cara o que vergas! " + message.author);
     }
 });
