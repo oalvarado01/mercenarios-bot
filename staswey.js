@@ -19,17 +19,17 @@ client.on('message',(message) => {
 });
 //Cuando se rien
 client.on('message',(message) => {
-    if(message.content.includes(prefix + "Ja")){
+    if(message.content.includes(prefix + "Jaj")){
         message.channel.send("Que? A caso tengo payasos en la puta cara o que vergas! " + message.author);
     }
 });
 client.on('message',(message) => {
-    if(message.content.includes(prefix + "ja")){
+    if(message.content.includes(prefix + "jaj")){
         message.channel.send("Que? A caso tengo payasos en la puta cara o que vergas! " + message.author);
     }
 });
 client.on('message',(message) => {
-    if(message.content.includes(prefix + "JA")){
+    if(message.content.includes(prefix + "JAJ")){
         message.channel.send("Que? A caso tengo payasos en la puta cara o que vergas! " + message.author);
     }
 });
