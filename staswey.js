@@ -172,6 +172,17 @@ client.on('message',(message) =>{
         message.channel.send(message.author + " En vez de decirle eso mejor cobrale. Que de seguro ya te mamaste toda tu Adena pinche pobre.");
     }
 });
+// mamada
+});client.on('message',(message) => {
+    if(message.content.includes(prefix + "mamada")){
+        message.channel.send("para mamadas las que me das tu " + message.author);
+    }
+});
+});client.on('message',(message) => {
+    if(message.content.includes(prefix + "Mamada")){
+        message.channel.send("para mamadas las que me das tu " + message.author);
+    }
+});
 //check roles
 
 //Bot login
