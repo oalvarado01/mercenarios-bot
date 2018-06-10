@@ -90,7 +90,8 @@ client.on('message',(message) => {
     if(message.content.includes(prefix + "buenas Noches")){
         message.channel.send("buenas las tengas y mejor las pases " + message.author);
     }
-});client.on('message',(message) => {
+});
+client.on('message',(message) => {
     if(message.content.includes(prefix + "buenas noches")){
         message.channel.send("buenas las tengas y mejor las pases " + message.author);
     }
@@ -142,12 +143,12 @@ client.on('message',(message) => {
 //mazmorras
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "mazmorras")){
-        message.channel.send("@everyone Ya escucharon cabrones, puto el que no entre. " + message.author + " ya les cague el palo wei :poop: ");
+        message.channel.send("@Mercenarios ya escucharon cabrones, puto el que no entre. " + message.author + " ya les cague el palo wei :poop: ");
     }
 });
 client.on('message',(message) =>{
     if(message.content.includes(prefix + "Mazmorras")){
-        message.channel.send("@everyone Ya escucharon cabrones, puto el que no entre. " + message.author + " ya les cague el palo wei :poop: ");
+        message.channel.send("@Mercenarios ya escucharon cabrones, puto el que no entre. " + message.author + " ya les cague el palo wei :poop: ");
     }
 });
 //Gracias
@@ -172,7 +173,12 @@ client.on('message',(message) =>{
         message.channel.send(message.author + " En vez de decirle eso mejor cobrale. Que de seguro ya te mamaste toda tu Adena pinche pobre.");
     }
 });
-
+//chimenea
+client.on('message',(message) => {
+    if(message.content.includes(prefix + "chimenea")){
+        message.channel.send("Huy si, huy si vamos a la fogata... ni que estubiera haciendo tanto pinche frio para prender esa madre. " + message.author);
+    }
+});
 //check roles
 
 //Bot login
